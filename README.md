@@ -1,0 +1,1 @@
+### eShop. Application - React + Redux toolkit
