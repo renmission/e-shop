@@ -19,8 +19,8 @@ const Reset = () => {
 
     sendPasswordResetEmail(auth, email)
       .then(() => {
-        toast.success("Check your email for a reset link");
         setIsLoading(false);
+        toast.success("Check your email for a reset link");
       })
       .catch((error) => {
         const errorCode = error.code;
